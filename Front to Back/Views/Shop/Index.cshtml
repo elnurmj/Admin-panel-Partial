@@ -1,0 +1,890 @@
+﻿
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="home d-flex">
+                <a href="home.html">HOME</a>
+                <i class="fa-solid fa-angle-right"></i>
+                <span>SHOP</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mt-5">
+                <div class="product-categories">
+                    <div class="product-categories-title">
+                        <p>PRODUCT CATEGORIES</p>
+                    </div>
+                    <div class="product-categories-checkbox">
+                        <div class="form-check beverages">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <div class="beverages-label">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Beverages
+                                </label>
+                                <i class="fas fa-plus product-categories-plus"></i>
+                            </div>
+
+                            <ul class="d-none">
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Coffee
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Craft Beer
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Drink Boxes & Pouches
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Milk & Plant-based Milk
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Soda & Pop
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Sparkling Water
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Tea & Kombucha
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Water
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Wine
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+
+                            <label class="form-check-label" for="defaultCheck1">
+                                Biscuits & Snacks
+                            </label>
+
+                        </div>
+                        <div class="form-check breads">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <div class="breads-label">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Breads & Bakery
+                                </label>
+                                <i class="fas fa-plus product-categories-plus"></i>
+                            </div>
+                            <ul class="d-none">
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Buns and Rolls
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Cakes and Cupcakes
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Cookies & Brownies
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Donuts & Muffins
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Order Specialty Cakes
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Packaged Breads
+                                    </label>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <div class="form-check breakfast">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <div class="breakfast-label">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Breakfast & Dairy
+                                </label>
+                                <i class="fas fa-plus product-categories-plus"></i>
+                            </div>
+                            <ul class="d-none">
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Butter & Margarine
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Cheese
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Eggs Substitutes
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Honey
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Marmalades
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Milk & Flavoured Milk
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Sour-cream & Dips
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Yogurt
+                                    </label>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Frozen Foods
+                            </label>
+                        </div>
+                        <div class="form-check fruits">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <div class="fruits-label">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Fruits & Vegetables
+                                </label>
+                                <i class="fas fa-plus product-categories-plus"></i>
+                            </div>
+                            <ul class="d-none">
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Herbs & Seasonings
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Packaged Produce
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Party Trays
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Cuts & Sprouts
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Exotic Fruits & Veggies
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Fresh Fruits
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Fresh Vegetables
+                                    </label>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Grocery & Staples
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Household Needs
+                            </label>
+                        </div>
+                        <div class="form-check meats">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <div class="meats-label">
+                                <label class="form-check-label meats-label" for="defaultCheck1">
+                                    Meats & Seafood
+                                </label>
+                                <i class="fas fa-plus product-categories-plus"></i>
+                            </div>
+                            <ul class="d-none">
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Shrimp
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Sliced Deli Meat
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Wild Caught Fillets
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Beef
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Breakfast Sausage
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Chicken
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Crab & Shellfish
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Dinner Sausage
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Farm Raised Fillets
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div data-role="page">
+                    <div data-role="header">
+                        <h6 class="filter-price mt-4">FILTER BY PRICE</h6>
+                    </div>
+
+                    <div data-role="main" class="ui-content">
+                        <form method="post" action="/action_page_post.php">
+                            <div data-role="rangeslider">
+                                <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+                            </div>
+                            <span>Price:</span>
+                            <strong>$0 - $900</strong>
+                            <span class="filt">FILTER</span>
+                        </form>
+                    </div>
+                </div>
+                <h6 class="product mt-5">PRODUCT STATUS</h6>
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        In Stock
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        On Sale
+                    </label>
+                </div>
+                <h6 class="brands mt-5">BRANDS</h6>
+                <div class="form-check mt-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Frito Lay
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Nespresso
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Oreo
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Quaker
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Welch's
+                    </label>
+                </div>
+                <div class="starbucks-happy-hour mt-5">
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/sidebar-banner.gif" alt="">
+                </div>
+            </div>
+            <div class="col-9 mt-5">
+                <div class="organic-meals">
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/08/bacola-banner-18.jpg" alt="">
+                    <div class="organic-text">
+                        <h4>Organic Meals Prepared</h4>
+                        <h3><strong>Delivered to </strong>your Home</h3>
+                        <h6>Fully prepared & delivered nationwide.</h6>
+                    </div>
+                </div>
+                <div class="sorting-products mt-3">
+                    <div class="grid-icons">
+                        <i class="fa-solid fa-grip-lines"></i>
+                        <i class="fa-solid fa-border-all"></i>
+                        <i class="fa-solid fa-grip-vertical"></i>
+                        <i class="fa-solid fa-table-cells"></i>
+                    </div>
+                    <div class="sort-by-lates">
+                        <div class="d-down">
+                            <button class="d-btn">Sort by latest<i class="fa-solid fa-angle-down"></i></button>
+                            <div class="d-down-content">
+                                <a href="#">Sort by popularity</a>
+                                <a href="#">Sort by average rating</a>
+                                <a href="#" class="latest">Sort by latest</a>
+                                <a href="#">Sort by price: low to high</a>
+                                <a href="#">Sort by price: high to low</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sort-by-lates">
+                        <div class="d-down show">
+                            <button class="d-btn">Show 12<i class="fa-solid fa-angle-down"></i></button>
+                            <div class="d-down-content asd">
+                                <a href="#" class="latest">12</a>
+                                <a href="#">24</a>
+                                <a href="#">36</a>
+                                <a href="#">48</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-products">
+                    <div class="row mt-2">
+                        <div class="col-3 pad">
+                            <a href="product-details.html" class="pro-detail">
+                                <div class="card crd">
+                                    <div class="cars">
+                                        <h3>23%</h3>
+                                    </div>
+                                    <div class="recom">
+                                        <h3>RECOMMENDED</h3>
+                                    </div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">All Natural Italian-Style Chicken Meatballs</h5>
+                                        <p class="card-text">IN STOCK</p>
+                                        <div class="card-stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="prices mt-3">
+                                            <h4 class="expensive">$7.49</h4>
+                                            <h3 class="cheap">$5.49</h3>
+                                        </div>
+                                        <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>27%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-46-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Field Roast Chao Cheese Creamy Original</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$4.49</h4>
+                                        <h3 class="cheap">$3.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>21%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-45-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Foster Farms Takeout Crispy Classic Buffalo</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$8.49</h4>
+                                        <h3 class="cheap">$6.33</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>22%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-59-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blue Diamond Almonds Lightly Salted</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$20.49</h4>
+                                        <h3 class="cheap">$12.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>23%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-58-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blueberries – 1 Pint Packages Blue</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$15.49</h4>
+                                        <h3 class="cheap">$7.29</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>22%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-50-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chobani Complete Vanilla Greek Yogurt</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$20.49</h4>
+                                        <h3 class="cheap">$12.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>25%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-57-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gra"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$21.49</h4>
+                                        <h3 class="cheap">$12.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>27%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-54-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canada Dry Ginger Ale – 2 L Bottle</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$17.49</h4>
+                                        <h3 class="cheap">$12.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>21%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-43-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Frozen Beef & Cheese Mini Tacos</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$15.49</h4>
+                                        <h3 class="cheap">$12.99</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>22%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-41-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gorton’s Beer Battered Fish Fillets</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$23.49</h4>
+                                        <h3 class="cheap">$14.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>20%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-40-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Giant Veggie Spirals</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$22.49</h4>
+                                        <h3 class="cheap">$15.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 pad">
+                            <div class="card crd">
+                                <div class="in-card">
+                                    <h3>28%</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-47-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fairlife Lactose-Free 2% Milk</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$18.49</h4>
+                                        <h3 class="cheap">$10.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="page-numbers d-flex justify-content-center">
+                                    <i class="fa-solid fa-angle-left mt-5"></i>
+                                    <div class="page-1 mt-5">
+                                        1
+                                    </div>
+                                    <div class="page-2 mt-5">
+                                        2
+                                    </div>
+                                    <div class="page-2 mt-5">
+                                        3
+                                    </div>
+                                    <div class="page-2 mt-5">
+                                        4
+                                    </div>
+                                    <div class="page-2 mt-5">
+                                        5
+                                    </div>
+                                    <div class="page-2 mt-5">
+                                        6
+                                    </div>
+                                    <i class="fa-solid fa-angle-right mt-5"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="recently-viewed mt-5">
+                <h4>RECENTLY VIEWED PRODUCTS</h4>
+                <div class="recently-viewed-products">
+                    <div class="row">
+                        <div class="col-3 p-0">
+                            <a href="product-details.html" class="pro-detail">
+                                <div class="card crd crds">
+                                    <div class="cars">
+                                        <h3>23%</h3>
+                                    </div>
+                                    <div class="recom">
+                                        <h3>RECOMMENDED</h3>
+                                    </div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">All Natural Italian-Style Chicken Meatballs</h5>
+                                        <p class="card-text">IN STOCK</p>
+                                        <div class="card-stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="prices mt-3">
+                                            <h4 class="expensive">$7.49</h4>
+                                            <h3 class="cheap">$5.49</h3>
+                                        </div>
+                                        <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-3 p-0">
+                            <div class="card crd crds">
+                                <div class="in-card">
+                                    <h3>27%</h3>
+                                </div>
+                                <div class="organic">
+                                    <h3>ORGANIC</h3>
+                                </div>
+                                <img class="card-img-top"
+                                     src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-46-346x310.jpg"
+                                     alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Field Roast Chao Cheese Creamy Original</h5>
+                                    <p class="card-text">IN STOCK</p>
+                                    <div class="card-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                        <i class="fa-solid fa-star gray"></i>
+                                    </div>
+                                    <div class="prices mt-3">
+                                        <h4 class="expensive">$4.49</h4>
+                                        <h3 class="cheap">$3.49</h3>
+                                    </div>
+                                    <a href="#" class="btn btn-primary mt-4">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
